@@ -29,8 +29,8 @@ function App() {
       <h4>{g}</h4>
       <h4>{e}</h4>
       <h4>{f}</h4>
-      <input onChange={e=>seta(e.target.value)}></input><br></br>
-      <input onChange={e=>setb(e.target.value)}></input><br></br>
+      <input onChange={e=>seta(e.target.value)} type='password'></input><br></br>
+      <input onChange={e=>setb(e.target.value)} type='password'></input><br></br>
       <input onChange={e=>setc(e.target.value)}></input><br></br>
       <input onChange={e=>setd(e.target.value)}></input><br></br>
       <button onClick={sendf}>success</button>
